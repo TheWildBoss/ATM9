@@ -3,9 +3,9 @@ import requests
 import zipfile
 
 # URL del archivo ZIP que deseas descargar
-url_archivo_zip = "https://mediafilez.forgecdn.net/files/5289/530/Server-Files-0.2.58.zip"
+url_archivo_zip = "https://mediafilez.forgecdn.net/files/4962/747/Server-Files-1.1.0.zip"
 # Ruta de destino para guardar el archivo ZIP
-ruta_destino = "/workspaces/ATM9/Minecraft-server-20240515T000717Z-001.zip"
+ruta_destino = "/workspaces/ATM9/Server-Files-1.1.0.zip"
 
 # Descargar el archivo ZIP
 response = requests.get(url_archivo_zip)

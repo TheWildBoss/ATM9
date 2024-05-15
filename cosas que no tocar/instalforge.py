@@ -52,7 +52,7 @@ def instalar_forge(url_descarga, directorio_destino):
   ejecutar_forge(instalador, directorio_destino)
 
 # Ejemplo de uso
-url_descarga = "https://maven.minecraftforge.net/net/minecraftforge/forge/1.20.1-47.2.32/forge-1.20.1-47.2.32-installer.jar"  # URL del instalador
+url_descarga = "https://maven.minecraftforge.net/net/minecraftforge/forge/1.19.2-43.2.20/forge-1.19.2-43.2.20-installer.jar"  # URL del instalador
 directorio_destino = "/workspaces/ATM9/servidor_minecraft"  # Directorio de instalación
 
 instalar_forge(url_descarga, directorio_destino)
